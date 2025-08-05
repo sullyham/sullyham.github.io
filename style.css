@@ -1,0 +1,30 @@
+body {
+   /*Sets the width of the content*/ 
+  width: 650px;
+  /*  Affects area outisde of border of content                        */
+  margin: 0 auto;
+  background-color: #ff9500;
+  /* The empty space inside the content */
+  padding: 0 40px 40px 40px;
+  /* The border of the content you are editing */
+  border: 10px solid black;
+}
+html {
+  background-color: #00539f;
+}
+h1{
+    text-align: center;
+    margin: 2;
+  padding: 0px 0;
+  color: #000000;
+  text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.done{
+  color:darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
